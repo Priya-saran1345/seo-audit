@@ -1,0 +1,464 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .animated-button {
+            box-shadow: 0 0 0 2px var(--blueish);
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky top-0 z-50 bg-white header shadow-xl px-9">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] font-medium text-slate-400 text-sm	 mt-3 w-52 p-2 shadow">
+                        <li><a><i class="fa-solid text-[14px] fa-house"></i> Home</a></li>
+                        <li class="parent-item"> <a><i class="fa-solid text-[14px] fa-server"></i>services</a>
+                            <ul class="submenu p-2">
+                                <li><a>Seo Audit</a></li>
+                                <li><a>Keyword Density </a></li>
+                            </ul>
+                        </li>
+                        <li><a><i class="fa-regular text-[14px]  fa-address-card"></i> About us</a></li>
+                    </ul>
+                </div>
+                <a class="px-4 text-xl font-bold cursor-pointer" onclick="window.location='/'">
+                    <img src="./image/image1_files/logo.png" class="h-16" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal font-medium text-slate-400 text-md px-1">
+                    <li><a><i class="fa-solid text-[14px] fa-house"></i>Home</a></li>
+                    <li class="w-[200px]">
+                        <details>
+                            <summary>
+                                <i class="fa-solid text-[14px] fa-server"></i>
+                                Services
+                            </summary>
+                            <ul class="p-2">
+                                <li><a>Seo Audit</a></li>
+                                <li><a>Keyword Density </a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a> <i class="fa-regular text-[14px]  fa-address-card"></i> About us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a
+                    class="btn border-2 border-slate-200 hover:bg-[#34C1F4] hover:text-white hover:border-2 hover:border-[#34C1F4] text-base font-bold text-slate-400 duration-500 ease-in-out">Get
+                    A Proposal</a>
+            </div>
+        </div>
+    </header>  
+    <main>
+        <div class="hero min-h-[80vh] w-full">
+            
+            <div class="hero-overlay"></div>
+
+              
+
+
+            <div class="hero-content text-black rounded-xl text-center w-full overlay">
+                <div class="w-full lg:ma">
+                    <h1 class="mb-2 text-6xl font-bold text-white" data-aos="fade-down" data-aos-delay="100"
+                        data-aos-easing="ease-out-back" data-aos-duration="1000">Get Your Free SEO</h1>
+                    <h1 class="mb-5 text-6xl text-white font-bold" data-aos="fade-down" data-aos-delay="100"
+                    data-aos-easing="ease-out-back" data-aos-duration="1000">Report Now!</h1>
+                    <p class="mb-5 text-white  py-2 rounded-full text-xl "data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                        Learn how to rank higher and capture more traffic with an instant SEO analysis.
+                    </p>
+                    <button
+                        class="btn hover:bg-[#34C1F4] hover:text-white hover:border-none hover:text-md hover:scale-110 duration-500 ease-in-out"
+                        onclick="my_modal_4.showModal()"data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">Start Here!</button>
+                    <dialog id="my_modal_4" class="modal">
+                        <div class="modal-box w-11/12 max-w-5xl ">
+                            <h3 class="text-lg font-bold text-black">Website URL:</h3>
+                            <div class="group modal-action ">
+                                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                                    <g>
+                                        <path
+                                            d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <input id="websiteInput" placeholder="Example.com" type="search" class="input_main"
+                                    oninput="validateURL()" />
+                            </div>
+                            <div class="modal-action">
+                                <form method="dialog" onsubmit="handleSubmit(event)">
+                                    <button id="nextButton"
+                                        class="btn modalbtn bg-purplish hover:bg-[#F08321] hover:text-white disabled:cursor-not-allowed"
+                                        disabled>
+                                        Next
+                                    </button>
+                                </form>
+                                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-black"
+                                    onclick="document.querySelector('dialog').close()">✕</button>
+                            </div>
+                        </div>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+     <div class="bg-[#E0E5EB] pt-[10vh]">
+            <div class="w-full lg:w-8/12 mx-auto">
+                <p class="text-center font-bold text-5xl mb-4"data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" >Uncover and meet<br> Website Needs
+                </p>
+                <p class="text-center text-lg"data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                    Most teams seek to understand customer needs, yet aren't able to hire a
+                    <br> dedicated researcher. Now there's another option.
+                </p>
+            </div>
+
+            <div class="flex justify-center flex-wrap gap-12 mt-9 ">
+                <div class="max-w-xs md:max-w-lg shadow-xl rounded-2xl bg-[#34C1F4]" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="ml-4 px-5 rounded-2xl py-7 bg-white">
+                        <p class="font-bold text-2xl capitalize">user experience</p>
+                        <p class="mt-3 text-lg ">
+                            <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa enim assumenda architecto
+                                voluptas ratione!
+                                Voluptatibus quam, nihil expedita aliquid accusantium repudiandae porro et, libero
+                                accusamus voluptatum esse alias rem corporis.</i>
+                        </p>
+                    </div>
+                </div>
+                <div class="max-w-xs md:max-w-lg shadow-xl rounded-2xl bg-[#34C1F4]" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="ml-4 px-5 rounded-2xl py-7 bg-white">
+                        <p class="font-bold text-2xl capitalize">data accuracy</p>
+                        <p class="mt-3 text-lg ">
+                            <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa enim assumenda architecto
+                                voluptas ratione!
+                                Voluptatibus quam, nihil expedita aliquid accusantium repudiandae porro et, libero
+                                accusamus voluptatum esse alias rem corporis.</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="text-center text-5xl font-bold mt-36 mb-5"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">We advise organizations in <br>website rankinfg
+                    strategies</p>
+            </div>
+            <div class="flex justify-center gap-6 flex-wrap mt-12">
+                <div class="flex items-start justify-center flex-wrap gap-6">
+
+                    <div class="card flex flex-col max-w-72 mt-24 gap-5 justify-between items-center align-middle  bg-white p-6 py-12 shadow-lg  border-b-2"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card-img flex w-28 h-28  rounded-full  bg-[#34C1F4]  justify-center items-center">
+                            <i
+                                class="fa-solid   text-white fa-unlock-keyhole text-3xl"></i>
+                        </div>
+                        <div class="card-right  text-[18px] text-slate-40">
+                            <p class="uppercase p1 text-xl text-center  font-bold mb-5">security</p>
+                            <p class="text-center">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur et
+                                    dignissimos
+                                    nulla,
+                                    iusto distinctio
+                                    consectetur tenetur delectus earum architecto ex!
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card  flex flex-col max-w-72  gap-5 justify-between items-center align-middle  bg-white p-6 py-12 shadow-lg  border-b-2"
+                        data-aos="fade-down" data-aos-delay="100" data-aos-duration="500">
+                        <div class="card-img flex w-28 h-28  rounded-full  bg-[#34C1F4] justify-center items-center">
+                            <i class="fa-solid   text-white fa-users text-3xl"></i>
+                        </div>
+                        <div class="card-right  text-[18px] text-slate-40">
+                            <p class="uppercase p1 text-xl text-center  font-bold mb-5">users</p>
+                            <p class="text-center">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur et
+                                    dignissimos
+                                    nulla,
+                                    iusto distinctio
+                                    consectetur tenetur delectus earum architecto ex!
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-6 flex-wrap justify-center items-start">
+                    <div class="card  flex flex-col max-w-72 mt-24	 gap-5 justify-between items-center align-middle  bg-white p-6 py-12 shadow-lg  border-b-2"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                        <div class="card-img w-28 h-28  rounded-full  bg-[#34C1F4] flex justify-center items-center">
+                            <i
+                                class="fa-solid   text-white fa-triangle-exclamation text-3xl"></i>
+                        </div>
+                        <div class="card-right  text-[18px] text-slate-40">
+                            <p class="uppercase p1 text-xl text-center  font-bold mb-5">crawling errors</p>
+                            <p class="text-center">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur et
+                                    dignissimos
+                                    nulla,
+                                    iusto distinctio
+                                    consectetur tenetur delectus earum architecto ex!
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card flex flex-col max-w-72	 gap-5 justify-between items-center align-middle  bg-white p-6 py-12 shadow-lg  border-b-2"
+                        data-aos="fade-down" data-aos-delay="100" data-aos-duration="500">
+                        <div class="card-img flex w-28 h-28 rounded-full  bg-[#34C1F4] justify-center items-center">
+                            <i class="fa-solid   text-white fa-mobile-retro text-3xl"></i>
+                        </div>
+                        <div class="card-right  text-[18px] text-slate-40">
+                            <p class="uppercase p1 text-xl text-center  font-bold mb-5">mobile usablity</p>
+                            <p class="text-center">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur et
+                                    dignissimos
+                                    nulla,
+                                    iusto distinctio
+                                    consectetur tenetur delectus earum architecto ex!
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          </div>
+        <div class="w-full bg-[#16477E] mt-[-25vh]">
+            <p class="text-white text-5xl pt-[40vh] font-bold text-center"data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100" >
+                Comprehensive <br> Website Audit
+            </p>
+            <div class="w-full lg:w-[50%] mt-16 mx-auto">
+
+                <p class="text-center text-[22px] opacity-70 leading-loose text-white" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+                    Search Engines rely on many factors to rank a website. SEOptimer is a Website SEO Checker which
+                    reviews these
+                    and more to help identify problems that could be holding your site back from it’s potential.                
+                    Additionally we provide a clear, actionable, prioritised list of recommendations to help improve.
+                </p>
+            </div>
+            <div class="flex justify-center flex-wrap gap-8 mt-48">
+                <div class="bg-white rounded-tl-xl leading-normal font-bold text-5xl p-8 max-w-[90%] lg:max-w-xl" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
+                >
+                    <p>We help and check your business ranking factors.</p>
+                    <div class="w-[35%] my-8  border-4 border-[#34C1F4]"></div>
+                </div>
+                <div class="rounded-tr-xl leading-normal  bg-white p-8 max-w-[90%] lg:max-w-xl" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+                    <p class="text-2xl font-bold">Why SEOAudit?</p>
+                    <p class="mt-4 text-20">Getting your website to rank in Google is harder and more competitive than
+                        ever. There are many factors such as on page content, performance, social factors and backlink
+                        profile that search engines like Google use to determine which sites should rank highest.
+                        <br>SEO Audit is better than other Website SEO Checkers through it`s super fast SEO analysis
+                        execution, JavaScript rendering and breadth of features.
+                    </p>
+                </div>
+            </div>
+           <div class="max-w-[90%] lg:max-w-[35%] mx-auto mt-[-13vh]"
+           data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <img src="./image/pdf_reports_en.png" class="w-full" alt="">
+            </div>
+        </div>
+        <div class="w-full pb-20  bg-white mt-[-30vh]">
+            <div class=" w-full lg:max-w-[40%] mx-auto text-center  pt-[45vh]">
+                <p class="text-5xl font-bold"
+                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">How We Help People</p>
+                <p class="text-xl mt-9 text-[#535353]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100"
+                >With serious savings, a seamless online application, and unique
+                    community benefits, our members have a lot to say about our loans!</p>
+            </div>
+            <div class="flex justify-center flex-wrap w-full mt-16 gap-12" >
+                <div class="bg-[#34C1F4] text-white max-w-xs lg:max-w-sm rounded-2xl p-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" >
+                    <p class="text-3xl font-bold mb-3"> Embeddable Audit Tool,,</p>
+                    <p class="text-lg">Search Engines rely on many factors to rank a website. SEOptimer is a Website SEO
+                        Checker which reviews these and more to help identify problems that could be holding your site
+                        back from it’s potential.
+                        Additionally we provide a clear, actionable, prioritised list of recommendations to help
+                        improve.</p>
+
+                </div>
+                <div class="bg-[#34C1F4] text-white max-w-xs lg:max-w-sm  rounded-2xl p-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" >
+                    <p class="text-3xl font-bold mb-3 "> Site Speed,,</p>
+                    <p class="text-lg">Site speed no longer just impacts your conversion rate, but it also affects how
+                        high your site can rank in search engines. If you want to rank well you have to perform a
+                        thorough website analysis and not just look at common SEO factors.</p>
+
+                </div>
+                <div class="bg-[#34C1F4] text-white max-w-xs lg:max-w-sm rounded-2xl p-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100"
+                >
+                    <p class="text-3xl font-bold mb-3 "> Identify Issues Early.,,</p>
+                    <p class="text-lg">Search Engines rely on many factors to rank a website. SEOptimer is a Website SEO
+                        Checker which reviews these and more to help identify problems that could be holding your site
+                        back from it’s potential.
+                        Additionally we provide a clear, actionable, prioritised list of recommendations to help
+                        improve.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#16477E] w-full ">
+            <div class="max-w-full lg:max-w-75  pt-16 flex flex-wrap justify-center gap-10 ">
+                <div>
+                    <img src="./image/image1.jpg" class=" max-w-xs lg:max-w-md h-[80vh]" alt=""data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
+                    >
+                </div>
+               <div >
+                   <img src="./image/img2.webp" class="max-w-xs lg:max-w-md mt-12 h-[70vh]" alt=""  data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"
+                   >
+               </div>
+            </div>
+        </div>
+        <div class="pt-[30vh] mt-[-20vh]  bg-white">
+           
+        </div>
+        <div class="hero-last  mb-12 flex flex-col items-center justify-center gap-4 ">
+            <div class="max-w-xs sm:max-w-full " data-aos="zoom-in" data-aos-delay="100" data-aos-duration="400" >
+
+                <h1 class="text-xl xl:text-2xl text-center font-medium pt-4">UNHAPPY WITH YOUR AUDIT RESULTS?</h1>
+                <h1 class="text-5xl xl:6xl font-bold text-[#34C1F4] text-center tracking-in-contract-bck">Get a score
+                    you're happy with.</h1>
+            </div>
+            <div class="hero-content flex flex-col lg:flex-row gap-">
+                <div class="flex max-w-xs Unhappy-div md:max-w-sm lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl flex-col">
+                    <p class="py-6">
+                        Our digital strategists have crafted successful internet marketing campaigns for a diverse
+                        range
+                        of businesses, from local coffee shops to publicly traded companies. We can deliver the same
+                        exceptional results for you. Request a free quote today and discover why WebFX is recognized
+                        as
+                        the world's leading SEO agency.
+                    </p>
+                    </svg>
+                    <input placeholder="Enter Your Website" type="search"
+                        class="inputUNHAPPY focus:bg-[#c9f0ffff] mb-4 py-2">
+                    <div>
+                        <button class="animated-button">
+                            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/1000/svg">
+                                <path
+                                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                </path>
+                            </svg>
+                            <span class="text text-black">Send Me A Proposal</span>
+                            <span class="circle"></span>
+                            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/1000/svg">
+                                <path
+                                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+
+    <footer>
+        <footer
+            class="footer bg-[#333333]  footer-center  text-base-content border-t-2  border-slate-100 rounded p-10"
+            data-aos="fade-up" data-aos-duration="1000">
+            <div class="flex-wrap justify-around w-[75%] text-white  items-center  gap-10 flex">
+                <div class="max-w-sm">
+                    <img src="./image/image1_files/logo.png" class="h-16 mx-auto" alt="">
+                    <p class="font-medium ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sunt
+                        earum eveniet delectusnde accusantium blanditiis magni iure natus. Dolore, ipsum?
+                </div>
+                <div>
+
+                    <nav class="grid grid-flow-col text-lg gap-5 mb-4">
+                        <a class="link link-hover">About us</a>
+                        <a class="link link-hover">Contact</a>
+                        <a class="link link-hover">Jobs</a>
+                        <a class="link link-hover">Press kit</a>
+                    </nav>
+                    <nav>
+                        <div class="grid grid-flow-col gap-4">
+                            <a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                    class="rounded-full p-2 bg-base-200 hover:bg-purplish" viewBox="0 0 24 24"
+                                    class="fill-current  ">
+                                    <path
+                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                    class="rounded-full p-2 bg-base-200 hover:bg-purplish" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                    class="rounded-full p-2 bg-base-200 hover:bg-purplish" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+            <aside class="text-white">
+                <p>Copyright © - All right reserved by Me!</p>
+            </aside>
+        </footer>
+    </footer>
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        blueish: "#c9f0ffff",
+                        greenish: "#eafffdff",
+                        greyish: "#efeff0ff",
+                        purplish: "#d5cad6ff",
+                        brownish: "#6b5e62ff",
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./gsap.js"></script>
+</body>
+
+</html>
